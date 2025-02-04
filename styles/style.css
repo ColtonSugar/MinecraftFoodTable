@@ -1,0 +1,34 @@
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Minecraft', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 3px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+    max-width: 100px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    font-family: 'Minecraft', sans-serif;
+}
+
+
+@font-face{
+    font-family: 'Minecraft';
+    src: url(minecraft_font.ttf) format('truetype');
+}
+
+body {
+    background-image: url('../images/pack.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
